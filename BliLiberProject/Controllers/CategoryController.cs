@@ -1,5 +1,5 @@
-﻿using BliLiberProject.Data;
-using BliLiberProject.Models;
+﻿using BliLiber.DataAccess;
+using BliLiber.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BliLiberProject.Controllers
@@ -17,7 +17,7 @@ namespace BliLiberProject.Controllers
             IEnumerable<Category> objCategoryList = _db.Categories;
             return View(objCategoryList);
         }
-        //GET
+        //GET 
         public IActionResult Create()
         {
             return View();

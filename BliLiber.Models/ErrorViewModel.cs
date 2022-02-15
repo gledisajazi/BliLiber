@@ -1,4 +1,4 @@
-namespace BliLiberProject.Models
+namespace BliLiber.Models
 {
     public class ErrorViewModel
     {
