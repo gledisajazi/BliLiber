@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BliLiberProject.Models
+namespace BliLiber.Models
 {
     public class Category
     {

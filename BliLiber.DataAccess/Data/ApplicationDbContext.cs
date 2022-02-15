@@ -1,7 +1,7 @@
-﻿using BliLiberProject.Models;
+﻿using BliLiber.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace BliLiberProject.Data
+namespace BliLiber.DataAccess
 {
     public class ApplicationDbContext :DbContext
     {
@@ -13,3 +13,4 @@ namespace BliLiberProject.Data
     }
     
 }
+ 
